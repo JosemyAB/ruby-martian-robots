@@ -1,14 +1,14 @@
 
 class Position
-  def initialize(xAxis, yAxis)
-    @xAxis = xAxis
-    @yAxis = yAxis
+  def initialize(x_axis, y_axis)
+    @x_axis = x_axis
+    @y_axis = y_axis
   end
 
-  attr_reader :xAxis, :yAxis
+  attr_reader :x_axis, :y_axis
 
   def location
-    "#{xAxis} #{yAxis}"
+    "#{x_axis} #{y_axis}"
   end
 
 end
