@@ -1,6 +1,6 @@
 require 'test_helper'
 require './app/models/landscape/planet'
-require_all './app/models/orientation'
+require_all './app/helpers/orientation'
 
 class OrientationNorthTest < ActiveSupport::TestCase
   test "turn left" do
